@@ -667,7 +667,17 @@ nav ul li a {
 
 
 @media screen and (max-width: 1267px) {
+    .pr-toptext {
+            line-height: 50px;
+            text-align: center;
+    }
+    
+    .Projects {
+        
+    }
+
     .card {
+        margin-left: 5px;
         margin-top: 65px;
         width: 40%;
         justify-content: center;
