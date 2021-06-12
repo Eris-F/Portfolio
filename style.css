@@ -653,6 +653,7 @@ nav ul li a {
 @media screen and (max-width:1267px) {
     .mypic {
         display: block;
+        height: 40%;
     }
 }
 
