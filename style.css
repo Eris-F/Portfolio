@@ -651,9 +651,17 @@ nav ul li a {
 /* Media Queries for mobile */
 
 @media screen and (max-width:1267px) {
+    .bgimage {
+        padding-bottom: 900px;
+    }
+    
+    
+    .bgimagetext {
+        width: 100%;
+    }
     .mypic {
         display: block;
-        height: 40%;
+        height: 100%;
     }
 }
 
