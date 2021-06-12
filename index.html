@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+</body>
+
+<header>
+    <nav>
+       <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+       </div>
+       <div class="logo">
+          Eris <i class="fa fa-code"></i>
+       </div>
+       <div class="menu">
+          <ul>
+             <li><a class="navbar-text" onclick="homefunction()" style="cursor: pointer;">Home</a></li>
+             <li><a class="navbar-text" onclick="amfunction()" style="cursor: pointer;">About</a></li>
+             <li><a class="navbar-text" onclick="prfunction()" style="cursor: pointer;">Projects</a></li>
+             <li><a class="navbar-text" onclick="amfunction()" style="cursor: pointer;">Contact</a></li>
+          </ul>
+       </div>
+    </nav>
+ </header>
+
+
+    <div class="bgimage" id="Home">
+        <div class="bgimagetext" id="Home">
+            <h1 class="fpart">Hello, I'm Eris!</h1>
+            <h1 class="spart"> A Junior Back-end <br /> Developer.</h1>
+            <div class="topbuttons">
+            <div class="box-2">
+                <div class="btn btn-two" onclick="prfunction()">
+                
+                  <span class="span1">Contact Me</span>
+                </div>
+              </div>
+              <div class="box-1">
+                <div type="submit" onclick="window.open('Lorem_ipsum.pdf')" class="btn btn-one">
+                  <span>Download CV</span>
+                </div>
+              </div>
+            </div>
+            <h2 class="preaboutme">About Me</h2>
+            <h3 class="tpart">I’ve always loved building websites , for as long as i remember website design and development has
+                 just resonated with me in a different way other things haven’t. In my career i’ve used many technologies for website
+                  design and development and i’ve seen the pros and cons of every single one of them!
+                If you’re a fellow programmer , make sure to keep on coding and never stop learning!</h3>
+            <div class="socialimages">
+                <a href="https://www.facebook.com/xhevat.budalla.9/">
+                    <img class="socmedicon" src="facebook240.png"/>
+                </a>
+                <a href="https://twitter.com/Myth1Wizard">
+                    <img class="socmedicon" src="twitter240.png"/>
+                </a>
+                <a href="https://www.instagram.com/erisfrangu/">
+                    <img class="socmedicon" src="instagram240.png"/>
+                </a>
+            </div>
+           <div class="downarrow">
+               <div class="dwarr">
+               <i class="fas fa-chevron-down fa-3x fa-white" style="color:white"><a href="#AboutMe" ></a></i>
+            </div>
+               <!-- <img class="dwimg" src="down-arrow.png" alt="down-arrow" /> -->
+           </div>
+        </div>
+        <div class="bgmypic">
+            <img class="mypic" src="mypic.png" alt="mypic" />
+        </div>
+
+
+    </div>
+
+    <div class="AboutMe" id="AboutMe">
+        <div class="am-toptext-div">
+            <p class='am-toptext'> About Me </p>
+        </div>
+        <div class="am-lefttext">
+            <h1 class="am-intro">Hi, I'm Eris!</h1>
+            <div class="am-introtext">
+                <h3 class='am-introduction'>
+                    Well, where to start? I guess we'll ask a few questions to get the <br />
+                background covered, so that I can introduce myself as well… <br />
+            </h3>
+                <h3 class="am-introq1"> <i class="fas fa-angle-right" style="color: orange;"></i> What is your name, and where do you live?</h3>
+               <h3 class="am-introa1"><i class="fas fa-angle-right" style="color: #009B77;"></i> My name is Eris, I live in Kosovo, a country in southeastern Europe.</h3>
+                <h3 class="am-introq1"> <i class="fas fa-angle-right" style="color: orange;"></i> What type of technologies have you used in the past?</h3>
+               <h3 class="am-introa1"><i class="fas fa-angle-right" style="color: #009B77;"></i> I've used countless , but some of them are : <br /> Python & Django , ReactJS , Javascript , HTML & CSS</h3>
+                <h3 class="am-introq1"> <i class="fas fa-angle-right" style="color: orange;"></i> Which programming language is your favourite?</h3>
+               <h3 class="am-introa1"><i class="fas fa-angle-right" style="color: #009B77;"></i> Even though i like many programming languages , Python is definitely my favourite!</h3>
+                <h3 class="am-introq1"> <i class="fas fa-angle-right" style="color: orange;"></i> Do you have experience with server deployment?</h3>
+               <h3 class="am-introa1"><i class="fas fa-angle-right" style="color: #009B77;"></i> As a matter of fact , I do! In the past i have deplyoed 15+ AWS servers</h3>
+            </div>
+        </div>
+
+        <div class="second-image">
+            <img class="mypic2" src="pic2.jpg" alt="mypic" />
+        </div>
+    </div>
+
+    <div class="Projects" id="Projects">
+        <div class="pr-toptext-div">
+            <p class='pr-toptext'> My Projects </p>
+        </div>
+        <!-- <figure class="image-block">
+            <h1>The Beach</h1>
+            <img src="aimbooster.png" alt="" />
+            <figcaption>
+                <h3>
+                    More Info
+                </h3>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <button>
+                    More Info
+                </button>
+            </figcaption>
+        </figure> -->
+        <div class="project-cards">
+          
+        <div class="card card1topmarg">
+            <div class="card-content" >
+            <h2 class="card-title">Aimbot for 2D games</h2>
+            <p class="card-body">In this project ,i created a python bot using advanced image recognition to scan 
+                a part of a the current screen then analyze it and with that data click a select amount of pixels.
+                This was built with : PyAutoGUI , PyWin32 , etc. In conclusion it was a really fun and rewarding project.
+            </p>
+            <a class="buttoncard">Live Preview & More !</a>
+        </div>
+        </div>
+        <div class="card" style="background-image: url(appstarter.png);">
+            <div class="card-content">
+            <h2 class="card-title">Automatic App Starter</h2>
+            <p class="card-body">This project was really fun to make since i was new to the Tkinter package and its modules .
+                I occassionally ran into a few problems but they were solved over time .  This project was built with : Tkinter-(filedialog,Text) , OS and Python.
+
+            </p>
+            <a class="buttoncard">Live Preview & More !</a>
+        </div>
+        </div>
+        <div class="card" style="background-image: url(thedevks.png)">
+            <div class="card-content">
+            <h2 class="card-title">TheDevKs</h2>
+            <p class="card-body">This project was created by me and 2 other friends: Drin Ramadani and Ledion Fejza . This project is meant to 
+                be a service where people can hire us to build a website for them and advertise it . It is currently not finished but it will be in the near future! 
+            </p>
+            <a class="buttoncard">Live Preview & More !</a>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+            <h2 class="card-title">Something Awesome</h2>
+            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Voluptates officiis consectetur minima, 
+                sapiente quia iste commodi consequatur eligendi fuga vero harum dolore
+                 ducimus officia, tempore incidunt ipsam quo, perspiciatis molestias.
+            </p>
+            <a class="buttoncard">Live Preview & More !</a>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+            <h2 class="card-title">Something Awesome</h2>
+            <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Voluptates officiis consectetur minima, 
+                sapiente quia iste commodi consequatur eligendi fuga vero harum dolore
+                 ducimus officia, tempore incidunt ipsam quo, perspiciatis molestias.
+            </p>
+            <a class="buttoncard">Live Preview & More !</a>
+        </div>
+        </div>
+    </div>
+
+    </div>  
+
+
+</body>
+</html>
