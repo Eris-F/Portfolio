@@ -655,13 +655,13 @@ nav ul li a {
         padding-bottom: 900px;
     }
     
-    
     .bgimagetext {
         width: 100%;
     }
     .mypic {
         display: block;
         height: 100%;
+        padding-bottom: 250px;
     }
 }
 
