@@ -653,6 +653,15 @@ nav ul li a {
 
 /* Media Queries for mobile */
 
+@media screen and (max-width: 1267px) {
+    .AboutMe {
+        height: 74%;
+        width: 100%;
+    }
+    
+}
+
+
 
 @media screen and (max-width: 1267px) {
     .card {
@@ -668,9 +677,23 @@ nav ul li a {
 
 
 @media screen and (max-width:1267px) {
+    .box-1 {
+        margin-top: 45px;
+    }
+
+    .am-toptext {
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .downarrow {
+        text-align: center;
+    }
+
+
     .bgimage {
-        padding-bottom: 900px;
-        height: 115%;
+        padding-bottom: 100px;
+        height: 100%;
     }
     
     .bgimagetext {
@@ -678,7 +701,7 @@ nav ul li a {
     }
     .mypic {
         display: block;
-        height: 35%;
+        height: 25%;
         
     }
 }
