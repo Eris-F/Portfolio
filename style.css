@@ -672,9 +672,7 @@ nav ul li a {
             text-align: center;
     }
     
-    .Projects {
-        
-    }
+   
 
     .card {
         margin-left: 5px;
@@ -690,11 +688,15 @@ nav ul li a {
 
 
 @media screen and (max-width:1267px) {
+    
+
+
     .box-1 {
         margin-top: 45px;
     }
 
     .am-toptext {
+        margin-top: 50px;
         line-height: 50px;
         text-align: center;
     }
@@ -712,7 +714,12 @@ nav ul li a {
     .bgimagetext {
         width: 100%;
     }
+
+    .bgmypic {
+        margin-bottom: 100px;
+    }
     .mypic {
+        
         display: block;
         height: 25%;
         
@@ -721,6 +728,19 @@ nav ul li a {
 
 
 @media screen and (max-width: 1524px) {
+    .am-introduction {
+        font-size: 18px;
+    }
+
+
+    .am-introq1 {
+        font-size: 20px;
+    }
+
+    .am-introa1 {
+        font-size: 12px;
+    }
+    
     .am-lefttext {
         width: 60%;
     }
