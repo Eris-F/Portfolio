@@ -653,6 +653,18 @@ nav ul li a {
 
 /* Media Queries for mobile */
 
+
+@media screen and (max-width: 1267px) {
+    .card {
+        margin-top: 65px;
+        width: 25%;
+    }
+    
+}
+
+
+
+
 @media screen and (max-width:1267px) {
     .bgimage {
         padding-bottom: 900px;
