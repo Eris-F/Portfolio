@@ -658,6 +658,8 @@ nav ul li a {
     .card {
         margin-top: 65px;
         width: 40%;
+        justify-content: center;
+        align-content: center;
     }
     
 }
