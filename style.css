@@ -650,9 +650,16 @@ nav ul li a {
 
 /* Media Queries for mobile */
 
+@media screen and (max-width:1267px) {
+    .mypic {
+        display: block;
+    }
+}
+
+
 @media screen and (max-width: 1524px) {
     .am-lefttext {
-        width: 60%
+        width: 60%;
     }
     
 }
