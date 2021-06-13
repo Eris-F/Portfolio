@@ -114,11 +114,13 @@ ul {
 
 }
 
+
 .project-cards > .card {
     display: inline-block;
 }
 .project-cards {
-    margin-left:40px ;
+    margin-left:13rem ;
+    /* clear:both; */
 }
 
 .ContactMe {
@@ -175,6 +177,7 @@ ul {
     width: 100%;
     height: 100%;
     background-color: #0f1214;
+    
 }
 
 .pr-toptext-div {
@@ -206,11 +209,12 @@ ul {
 .am-introtext {
     margin-bottom: 0px;
     font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 26px;
 }
 
 .am-introq1 {
     color: #FFF;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 0px !important;
     line-height: 34px;
 }
@@ -219,7 +223,7 @@ ul {
     font-family: 'Source Sans Pro', sans-serif;
     color: #FFF;
     margin-top: 0px !important;
-    font-size: 22px;
+    font-size: 21px;
     margin-left: 30px ;
 }
 
@@ -245,6 +249,7 @@ ul {
 }
 
 .am-intro {
+    padding-top: 50px;
     color: #FFF;
     font-size: 40px;
     font-family: 'Baloo Tammudu 2', cursive;
@@ -696,6 +701,7 @@ nav ul li a {
     }
 
     .am-toptext {
+
         margin-top: 50px;
         line-height: 50px;
         text-align: center;
