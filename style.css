@@ -723,7 +723,9 @@ nav ul li a {
    .card {
        margin-left: 20px;
    }
-    
+   .mypic2 {
+       height: 30%;
+   }
 }
 
 
