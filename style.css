@@ -41,7 +41,7 @@ ul {
 .card-content {
     margin:1px;
     padding: 1.5em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     /* background-image: linear-gradient(
         hsl(0, 0%, 0% / 0), 
         hsl(20, 0%, 0% / 0.3) 20%,
@@ -137,11 +137,54 @@ ul {
     font-size: 6px;
 }
 
+.leftcontent {
+    margin-left: 100px ;
+    padding-top: 25px  !important;
+    height: 100%;
+    width: 50%;
+}
 
+.ContactText {
+    font-size: 35px;
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1.4px;
+    margin-bottom: 10px !important;
+}
 
+.ci-addressdiv {
+    color: #FFF;
+    padding-left:5px;
+}
+.ci-address {
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    /* text-align: center;
+    float: left; */
+}
 
+.ci-emaildiv {
+    margin-top:55px !important;
+    margin-left:280px  !important;
+}
 
+.ci-email {
+    font-size: 17px;
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+}
+.ci-2 {
+    float:left;
+}
+.ci-email{
+    margin-top: -100px !important;
+}
 
+.Contact-Info2 {
+    margin-top: 50px;
+}
 
 
 
@@ -666,6 +709,17 @@ nav ul li a {
         height: 74%;
         width: 100%;
     }
+    
+}
+
+@media screen and (max-width: 1665px) {
+   .AboutMe {
+       height: 85%;
+   }
+   
+    .Projects {
+       height: 130%;
+   }
     
 }
 
