@@ -855,10 +855,12 @@ nav ul li a {
 
 
 @media screen and (max-width: 1524px) {
-    
+    .leftcontent {
+        margin-left: 115px !important;
+    }
     
     .rightcontent {
-        margin-right: 400px !important;
+        margin-right: 375px !important;
         margin-top: -800px;
     }
     
