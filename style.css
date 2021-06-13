@@ -855,7 +855,10 @@ nav ul li a {
 
 
 @media screen and (max-width: 1524px) {
+    
+    
     .rightcontent {
+        text-align: center;
         margin-top: -800px;
     }
     
