@@ -238,6 +238,7 @@ input[type=text] {
   }
 
 .Description {
+    font-family: Arial, Helvetica, sans-serif;
     padding: 12px 20px;
     margin: 8px 0;
     margin-top: 3px !important;
@@ -270,10 +271,20 @@ input[type=text] {
     cursor: pointer;
 } */
 
+.sendbutton {
+    font-family: 'Baloo Tammudu 2', cursive;
+    width: 60.7%;
+    padding: 12px;
+    padding-bottom: 2px !important;
+    border-radius: 0.4rem;
+    transition: transform 500ms ease;
+    overflow: hidden;
+    border: 1.5px solid orange;
+}
 
-
-
-
+.sendbutton:hover {
+    transform: scale(1.05);
+}
 
 
 
