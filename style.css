@@ -802,6 +802,7 @@ nav ul li a {
 
 @media screen and (max-width: 1665px) {
    .AboutMe {
+       display: block;
        height: 85%;
    }
    
