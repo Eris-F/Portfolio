@@ -142,6 +142,7 @@ ul {
     padding-top: 25px  !important;
     height: 100%;
     width: 50%;
+    float:left;
 }
 
 .ContactText {
@@ -186,8 +187,11 @@ ul {
     margin-top: 50px;
 }
 
-
-
+.rightcontent {
+    width: 40%;
+    background-color: rgb(2, 1, 10);
+    float:right;
+}
 
 
 
