@@ -720,6 +720,9 @@ nav ul li a {
     .Projects {
        height: 85%;
    }
+   .card {
+       margin-left: 20px;
+   }
     
 }
 
