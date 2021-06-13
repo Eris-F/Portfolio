@@ -858,7 +858,8 @@ nav ul li a {
     
     
     .rightcontent {
-        padding-right: 200px;
+        justify-content: center;
+        align-content: center;
         margin-top: -800px;
     }
     
