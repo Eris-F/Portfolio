@@ -33,3 +33,8 @@ function prfunction() {
     element.scrollIntoView();
   }
 
+  function cifunction() {
+    var element = document.getElementById("ContactMe");
+    element.scrollIntoView();
+  }
+

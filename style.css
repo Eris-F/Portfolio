@@ -138,7 +138,7 @@ ul {
 }
 
 .leftcontent {
-    margin-left: 180px ;
+    margin-left: 190px ;
     padding-top: 1px  !important;
     height: 100%;
     width: 50%;
@@ -180,7 +180,7 @@ ul {
     float:left;
 }
 .ci-email{
-    margin-top: -100px !important;
+    margin-top: -137px !important;
 }
 
 .Contact-Info2 {
@@ -191,6 +191,10 @@ ul {
     width: 40%;
     background-color: rgb(2, 1, 10);
     float:right;
+}
+
+.topmargci {
+    margin-top: 50px;
 }
 
 .topmargform {
@@ -254,7 +258,9 @@ input[type=text] {
     border-radius: 0.4rem;
   }
 
-
+  .homeci {
+      padding-right: 8px;
+  }
 
 
 
@@ -852,6 +858,17 @@ nav ul li a {
     }
 }
 
+@media screen and (max-width: 1679px) {
+    .leftcontent {
+        margin-left: 250px !important;
+    }
+    
+    .rightcontent {
+        margin-right: 1% !important;
+        margin-top: -35.5%;
+    }
+    
+
 
 @media screen and (max-width: 1524px) {
     .leftcontent {
@@ -859,8 +876,8 @@ nav ul li a {
     }
     
     .rightcontent {
-        margin-right: 375px !important;
-        margin-top: -800px;
+        margin-right: 20% !important;
+        margin-top: -650px;
     }
     
     
