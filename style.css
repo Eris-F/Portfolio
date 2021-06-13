@@ -855,6 +855,11 @@ nav ul li a {
 
 
 @media screen and (max-width: 1524px) {
+    .rightcontent {
+        margin-top: -100px;
+    }
+    
+    
     .am-introduction {
         font-size: 18px;
     }
