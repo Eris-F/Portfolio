@@ -25,17 +25,25 @@
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
-    <script type="text/javascript">
-       
-       
-function zoom() {
-            document.body.style.zoom = "60.3%" 
+    <script>
+        
+         var xw = window.screen.width;
+         var xh = window.screen.height;
+         
+
+  function kek() {
+      console.log(xw,xh)
+    if (xw <= 1400 && xh <= 800) {
+      document.body.style.zoom = "67%"
+    } else {
+      document.body.style.zoom = "100%"
         }
-       
-</script>
+  }
+
+    </script>
 
 </head>
-<body onload="zoom()">
+<body onload="kek()">
 </body>
 
 <header>
